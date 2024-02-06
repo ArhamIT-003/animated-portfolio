@@ -3,6 +3,7 @@ import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Parallex from "./components/Parallax/Parallex";
 import Services from "./components/Services/Services";
+import Contact from "./components/contact/Contact";
 import Portfolio from "./components/portfolio/Portfolio";
 
 const App = () => {
@@ -22,13 +23,9 @@ const App = () => {
         <Parallex type="portfolio" />
       </section>
       <Portfolio />
-      <section id="Contact">Contact</section>
-      <section id="About">About</section>
-
-      {/*
-      <Test />
-      <Test />
-      */}
+      <section id="Contact">
+        <Contact />
+      </section>
     </div>
   );
 };
