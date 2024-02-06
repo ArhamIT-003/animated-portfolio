@@ -69,7 +69,7 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        MERN Python React-Native NEXT-JS
+        MERN Python React-Native NEXT-JS MongoDB
       </motion.div>
       <div className="imgContainer">
         <img src="/hero.png" alt="" />
